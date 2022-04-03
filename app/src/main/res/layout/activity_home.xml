@@ -55,11 +55,12 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/agendar"
+        android:text="@string/services"
         android:textSize="25sp"
-        android:textColor="@color/primaryTextColor"
-        android:layout_marginTop="545dp"
+        android:textColor="@color/DarkGreyprimaryColor"
+        android:layout_marginTop="620dp"
         android:layout_marginStart="60sp"
+        android:onClick="services"
         />
 
     <com.google.android.material.imageview.ShapeableImageView
@@ -70,6 +71,16 @@
         app:shapeAppearanceOverlay="@style/style"
         android:onClick="schedule"
         android:src="@drawable/lamafiabarbeariasapiranga1___copia"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/agendar"
+        android:textSize="25sp"
+        android:textColor="@color/DarkGreyprimaryColor"
+        android:layout_marginTop="620dp"
+        android:layout_marginStart="275sp"
+        android:onClick="schedule"
         />
 
 

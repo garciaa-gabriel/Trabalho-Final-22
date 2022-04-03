@@ -32,9 +32,7 @@ public class scheduleActivity extends AppCompatActivity {
     Button btsend;
     String text;
 
-    TextView datas;
     private MenuItem item;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,7 +66,6 @@ public class scheduleActivity extends AppCompatActivity {
 
         timepicker = findViewById(R.id.timepk);
         date = findViewById(R.id.datepicker);
-        datas = findViewById(R.id.date);
 
         btsend = findViewById(R.id.btsend);
 
@@ -78,6 +75,7 @@ public class scheduleActivity extends AppCompatActivity {
                 int month = date.getMonth();
                 int day = date.getDayOfMonth();
                 int year = date.getYear();
+
                 int hour = timepicker.getHour();
                 int min = timepicker.getMinute();
 
@@ -109,6 +107,7 @@ public class scheduleActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setTitle("Agendar");
     }
+
     @Override
     public boolean onSupportNavigateUp() {
         onBackPressed();

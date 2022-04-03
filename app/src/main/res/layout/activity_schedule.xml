@@ -53,13 +53,4 @@
         android:layout_marginTop="35dp"
         android:text="@string/agendar" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@+id/btsend"
-        android:id="@+id/date"
-        android:text="@string/home"/>
-
-
 </RelativeLayout>
