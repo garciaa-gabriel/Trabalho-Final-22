@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">BarberShop</string>
+    <string name="login">Login</string>
+    <string name="usuario">Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="entrar">Entrar</string>
+    <string name="agendar">Agendar</string>
+    <string name="home">Home</string>
+    <string name="maquina">Máquina</string>
+    <string name="tesoura">Tesoura</string>
+    <string name="barba">Barba</string>
+    <string name="Acabamentos">Cortes</string>
+    <string name="service">Serviços:</string>
+    <string name="data">Data:</string>
+    <string name="time">Hora:</string>
+
+    <string name="logotitle">Barbearia La Mafia</string>
+    <string name="success">Seu horário foi agendado com sucesso</string>
+    <string name="title">Seja Bem-Vindo à Barbearia La Mafia</string>
+
+    <string-array name="spin">
+        <item>Acabamentos</item>
+        <item>Barba na Navalha</item>
+        <item>Barba na Máquina</item>
+        <item>Corte Máquina Simples</item>
+        <item>Corte Máquina + Tesoura</item>
+        <item>Corte Máquina Degradê</item>
+        <item>Corte + Barba"</item>
+        <item>Corte + Barba + Acabamentos</item>
+    </string-array>
+
+    <string name="menu_home">Home</string>
+    <string name="services">Serviços</string>
+    <string name="schedule">Agendar</string>
+</resources>

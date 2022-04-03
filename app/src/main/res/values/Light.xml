@@ -1,0 +1,11 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<resources>
+  <color name="primaryColor">#fafafa</color>
+  <color name="primaryLightColor">#ffffff</color>
+  <color name="primaryDarkColor">#c7c7c7</color>
+  <color name="primaryTextColor">#000000</color>
+  <color name="DarkGreyprimaryColor">#212121</color>
+  <color name="GreyDarkprimaryLightColor">#484848</color>
+  <color name="RedColor">#710000</color>
+  <color name="Titles">#FFFF9800</color>
+</resources>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".successActivity">
+
+    //LOGO
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logomelhor" />
+    //END LOGO
+
+    //TITLE
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/iglesia"
+        android:textColor="@color/RedColor"
+        android:text="@string/logotitle"
+        android:textAlignment="center"
+        android:textSize="45sp" />
+    //END TITLE
+
+    //SERVICOS
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/sanseriffic"
+        android:text="@string/service"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:id="@+id/servicos"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/sanseriffic"
+        android:text="@string/data"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:id="@+id/agendaservico"/>
+    //END SERVICOS
+
+    //DATA
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/agendaservico"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/sanseriffic"
+        android:text="@string/data"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:id="@+id/data"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginStart="80dp"
+        android:layout_below="@+id/agendaservico"
+        android:id="@+id/agendadata"
+        android:text="@string/data"
+        android:textStyle="bold"
+        android:fontFamily="@font/sanseriffic"
+        android:textSize="25sp"
+    />
+    //END DATA
+
+    //TIME
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/agendadata"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/sanseriffic"
+        android:text="@string/time"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:id="@+id/time"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginStart="80dp"
+        android:layout_below="@+id/agendadata"
+        android:id="@+id/agendatime"
+        android:text="@string/time"
+        android:textStyle="bold"
+        android:fontFamily="@font/sanseriffic"
+        android:textSize="25sp"
+        />
+    //END TIME
+
+    //SUCESSO
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/success"
+        android:layout_below="@+id/agendatime"
+        android:layout_marginTop="55dp"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/sanseriffic"
+    />
+    //END SUCESSO
+
+</RelativeLayout>

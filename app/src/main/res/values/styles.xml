@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="style">
+        <item name="cornerFamilyTopLeft">rounded</item>
+        <item name="cornerRadius">50dp</item>
+
+        <item name="color">@color/RedColor</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="MyActionBar"
+        parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/iglesia</item>
+
+    </style>
+</resources>
